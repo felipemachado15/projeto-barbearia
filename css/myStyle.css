@@ -1,0 +1,150 @@
+/**
+template grid
+ home negocio atendimento contato
+**/
+
+#home{
+    grid-area: home;
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+
+#negocio{
+    grid-area: negocio;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    
+     grid-template-areas: 
+         'img-cerveja text-cerveja'
+         'img-sinuca text-sinuca'
+         'img-tesoura text-tesoura';
+   
+    background-image: url("../img/fundo-madeira.jpg");
+        background-size: 100% 100%;
+        
+}
+
+/*Negocio classes*/
+
+#img-cerveja{
+    grid-area: imgCerveja;
+}
+#text-cerveja{
+    grid-area: textCerveja;
+}
+#img-sinuca{
+    grid-area: imgSinuca; 
+    
+}
+
+#text-sinuca{
+    grid-area: textSinuca;
+}
+
+#img-tesoura{
+    grid-area: imgTesoura;
+}
+#text-tesoura{
+    grid-area: textTesoura;
+}
+
+#local{
+    grid-area: area;
+}
+
+#logotipo{
+    grid-area: logotipo;
+    
+}
+
+#atendimento{
+    grid-area: atendimento;
+    display: grid;
+       grid-template-areas: 
+        'logotipo'
+        'area'
+}
+
+#contato{
+    grid-area: contato;
+    background-image: url("../img/fundo-formulario.jpg")
+}
+
+#rodape{
+    grid-area: rodape;
+    background-color: aliceblue;
+    height: 100px;
+    background-image: url("../img/rodape-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+#container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas: 
+        'home'
+        'negocio'
+        'atendimento'
+        'contato'
+        'rodape'
+}
+
+
+
+
+
+
+.campo-nome{
+    display: flex;
+    color: azure;
+    align-content: flex-start;
+}
+input{
+    display: flex;
+    align-content:flex-end;
+    border : 3px solid black;
+    width: 55%;
+   
+    
+}
+#formulario-contato{
+    display: flex;
+    
+}
+
+.btn_submit{
+    width: 30%;
+    border-radius: 20px;
+   background-color: green;
+    color: antiquewhite;
+    font-size: 1.0em;
+        
+}
+.msg{
+   display: flex;
+  
+    border : 3px solid black;
+}
+
+
+
+
+.img-responsive{
+        background-size:100% 100%;
+}
+
+
+.redondinho{
+    height: 200px;
+    
+    border-radius: 100%;
+}
+.text-desc{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2em;
+    color:beige;
+}
+
