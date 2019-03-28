@@ -5,7 +5,7 @@ Desenvolvido para divulgar o que de tão especial tem a barber shop,possuindo si
 
 
 
-### Desáfio utilização grid css
+### Desafio utilização grid css
 
 Com o desenvolvimento do projeto,com essa oportunidade de trabalhar com essa tecnologia magnifica,aprendi a organizar o layout do site com uma facilidade extraordinária.
 
