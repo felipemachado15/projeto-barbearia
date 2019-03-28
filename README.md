@@ -13,7 +13,7 @@ Usamos alguns elementos para trabalhar com esta propriedade
 
 **grid area : elementoSelecionadoCSS ->**      comando que recebe uma variavel com o elemento selecionado
 
-** display : grid ** -> Alterar o layout pro tipo grid
+**display : grid** -> Alterar o layout pro tipo grid
 
 **grid-template-areas  :   'elementoSelecionado1 elementoSelecionado2'** -> comando aonde definimos o template conforme os elementos selecionados
 
